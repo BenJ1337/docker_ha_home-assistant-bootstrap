@@ -1,0 +1,12 @@
+services:
+  ha:
+    depends_on:
+      ha-msqtt:
+        condition: service_started
+      ha-z2m:
+        condition: service_started
+      ha-mariadb:
+        condition: service_healthy
+  ha-z2m:
+    depends_on:
+      - ha-msqtt
