@@ -1,0 +1,15 @@
+[submodule "docker_ha_mosquitto"]
+	path = docker_ha_mosquitto
+	url = git@github.com:BenJ1337/docker_ha_mosquitto.git
+[submodule "docker_ha_zigbee2mqtt"]
+	path = docker_ha_zigbee2mqtt
+	url = git@github.com:BenJ1337/docker_ha_zigbee2mqtt.git
+[submodule "docker_ha_mariadb"]
+	path = docker_ha_mariadb
+	url = git@github.com:BenJ1337/docker_ha_mariadb.git
+[submodule "docker_ha_influx"]
+	path = docker_ha_influx
+	url = git@github.com:BenJ1337/docker_ha_influx.git
+[submodule "docker_ha_home-assistant"]
+	path = docker_ha_home-assistant
+	url = git@github.com:BenJ1337/docker_ha_home-assistant.git

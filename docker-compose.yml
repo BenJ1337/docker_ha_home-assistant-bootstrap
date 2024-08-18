@@ -1,0 +1,6 @@
+include:
+  - docker_ha_home-assistant/docker-compose.yaml
+  - docker_ha_mosquitto/docker-compose.yaml
+  - docker_ha_zigbee2mqtt/docker-compose.yaml
+  - docker_ha_mariadb/docker-compose.yaml
+  - docker_ha_influx/docker-compose.yaml

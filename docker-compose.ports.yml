@@ -1,0 +1,13 @@
+services:
+  ha-influxdb:
+    ports:
+      - 0.0.0.0:8086:8086
+  ha:
+    ports:
+      - 0.0.0.0:29000:29000
+  ha-z2m:
+    ports:
+      - 0.0.0.0:83:8080
+  ha-msqtt:
+    ports:
+      - 0.0.0.0:1883:1883
